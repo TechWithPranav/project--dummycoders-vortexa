@@ -1,0 +1,4 @@
+{
+  "endpoint": "api/lumpy-zebu",
+  "root": "stepzen/curl"
+}

@@ -1,0 +1,58 @@
+
+
+.youtube-search-page {
+    padding: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .tags {
+    margin-bottom: 20px;
+  }
+  
+  .tag-button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #f0f0f0;
+    font-size: 14px;
+  }
+  
+  .tag-button.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .videos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .video-item {
+    text-align: center;
+  }
+  
+  .video-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  

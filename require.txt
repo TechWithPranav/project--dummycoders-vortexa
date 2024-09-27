@@ -1,0 +1,14 @@
+@tremor/react
+npm i country-state-city -> npm library
+
+npm i --save react-select
+
+npm i @heroicons/react@1.0.6
+
+npm i -g stepzem
+
+stepzen login
+
+adiapoto::local.io+1000::bcd98a92f92ce5b55d739d546f9cd919cccff87553cdfb4dcb75d623cf624cdc
+
+npm install @apollo/client graphql
