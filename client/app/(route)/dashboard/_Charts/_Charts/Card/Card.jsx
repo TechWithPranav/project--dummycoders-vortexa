@@ -49,7 +49,7 @@ function CompactCard({ param, setExpanded }) {
       </div>
       <div className="detail">
         <Png />
-        <span className="text_size_card">${param.value}</span>
+        <span className="text_size_card">{param.value}</span>
         <span>Last 24 hours</span>
       </div>
     </motion.div>

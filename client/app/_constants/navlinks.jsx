@@ -38,7 +38,7 @@ export function getNavLinks() {
         icon: Users,
       },
       {
-        href: '/view_analysis',
+        href: '/analysis',
         label: 'View Analysis',
         icon: ChartAreaIcon,
       },
@@ -98,9 +98,14 @@ export function getNavLinks() {
       label: 'Prakriti',
       icon: User2Icon,
     },
+    // {
+    //   href: '/education',
+    //   label: 'Health Education',
+    //   icon: GraduationCap,
+    // },
     {
-      href: '/education',
-      label: 'Health Education',
+      href: '/assessment',
+      label: 'AI Risk Assessment',
       icon: GraduationCap,
     },
     {

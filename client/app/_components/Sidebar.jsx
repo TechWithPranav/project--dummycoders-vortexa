@@ -63,9 +63,9 @@ export function Sidebar() {
   const { pathname } = useRouter();
   const [isOpen, setIsOpen] = useState(false); // State for mobile menu toggle
 
-  const isActive = (path) => pathname === path;
+  const navlinks = getNavLinks(); // Get the navlinks based on the username
 
-  const navlinks = getNavLinks();
+  const isActive = (path) => pathname === path;
 
   return (
     <div>
