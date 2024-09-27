@@ -7,6 +7,10 @@ import { BrainIcon, HeartPulseIcon, NotepadTextIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
+import Cards from "./_Charts/Cards/Cards";
+
+
+
 const DashboardPage = async () => {
     const user = await currentUser();
 
@@ -84,7 +88,10 @@ const DashboardPage = async () => {
                     </ul>
                 </div>
             </div>
-            <div className="flex flex-col md:col-span-1 xl:col-span-8 gap-8 w-full">
+            <div className="flex flex-col md:col-span-1 xl:col-span-8 gap-8 w-full ">
+            <div className="">
+                <Cards />
+            </div>
                 <div className="grid grid-cols-1 xl:grid-cols-3 gap-6 w-full">
                     <MagicCard color="rgba(239,68,68,.08)" className="border-2 border-red-100 max-w-full w-full">
                         <Link href="/dashboard/health-status" className="flex items-center justify-between w-full bg-background group p-4">

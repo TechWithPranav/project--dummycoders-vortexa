@@ -55,7 +55,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { navlinks } from "../_constants/navlinks";
+import { getNavLinks } from "../_constants/navlinks";
 import { Menu, X } from "lucide-react"; // Import icons for mobile menu toggle
 import Image from "next/image"; // Import Image for Next.js
 
@@ -64,6 +64,8 @@ export function Sidebar() {
   const [isOpen, setIsOpen] = useState(false); // State for mobile menu toggle
 
   const isActive = (path) => pathname === path;
+
+  const navlinks = getNavLinks();
 
   return (
     <div>
